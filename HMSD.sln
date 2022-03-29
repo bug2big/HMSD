@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API Gateway", "API Gateway\API Gateway.csproj", "{0815326F-3567-4CBC-B3A9-6B1A1FE6902D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encryption Service", "Encryption Service\Encryption Service.csproj", "{49C2DF69-2EC8-43AF-96E8-90A2FAC8C65F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0815326F-3567-4CBC-B3A9-6B1A1FE6902D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0815326F-3567-4CBC-B3A9-6B1A1FE6902D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0815326F-3567-4CBC-B3A9-6B1A1FE6902D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0815326F-3567-4CBC-B3A9-6B1A1FE6902D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49C2DF69-2EC8-43AF-96E8-90A2FAC8C65F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C2DF69-2EC8-43AF-96E8-90A2FAC8C65F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49C2DF69-2EC8-43AF-96E8-90A2FAC8C65F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C2DF69-2EC8-43AF-96E8-90A2FAC8C65F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6C5F732-97CC-4B80-8170-447B4ED449F2}
+	EndGlobalSection
+EndGlobal
