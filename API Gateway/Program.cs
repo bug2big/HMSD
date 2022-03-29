@@ -1,4 +1,5 @@
 using API_Gateway;
+using API_Gateway.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +9,8 @@ builder.Services.AddControllers();
 
 var appSettingsSection = builder.Configuration.GetSection("AppSettings");
 builder.Services.Configure<AppSettingsConfiguration>(appSettingsSection);
+
+builder.Services.AddScoped<IHttpClientWrapper, HttpClientWrapper>();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
